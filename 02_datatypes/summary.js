@@ -17,7 +17,33 @@ console.log(anotherId)
 console.log(id == anotherId)
 console.log(id === anotherId)
 
+const bigNumber = 363927342657326n
+console.log(bigNumber)
 
 // Reference / non primitive - Array, Objects, Functions
+
+const cricketers = ["virat", "rohit", "dhoni", "sachin"]
+
+let myObj = {
+    name : "Lakshay",
+    age : 20
+}
+
+
+const func = function (){
+    console.log("Hello function");
+}
+func()
+
+console.log(typeof bigNumber);
+console.log(typeof func);
+console.log(typeof cricketers);
+console.log(typeof null)
+console.log(typeof userEmail);
+console.log(typeof temp);
+console.log(typeof scoreValue);
+
+
+
 
 
