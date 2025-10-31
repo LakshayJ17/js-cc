@@ -46,7 +46,7 @@ function addOne(num){
 
 console.log(addOne(5));
 
-// addTwo(6) ReferenceError: Cannot access 'addTwo' before initialization
+// addTwo(6) ReferenceError: Cannot access 'addTwo' before initialization -> hoisting
 
 const addTwo = function(num){
     return num + 2
